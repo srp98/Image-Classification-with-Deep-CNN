@@ -33,4 +33,7 @@ Output, 10 possible classes (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
 6. Readout layer - Fully Connected
 7. Outputs - Classified digits
 
+Padding used for convolution is `SAME` padding
+
+
 Optimizer is `AdamOptimizer` with learning rate of `1e-4`. Using the complete dataset produces better results but can lead to overfitting of data. Test Accuracy of 99.57% (0.43% Error rate).
